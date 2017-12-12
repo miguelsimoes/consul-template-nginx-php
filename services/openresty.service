@@ -1,0 +1,3 @@
+#!/bin/sh
+#
+/opt/openresty/nginx/sbin/nginx -c /opt/openresty/nginx/conf/nginx.conf -t && exec /opt/openresty/nginx/sbin/nginx -c /opt/openresty/nginx/conf/nginx.conf -g "daemon off;"
