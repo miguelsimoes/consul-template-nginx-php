@@ -1,4 +1,4 @@
-FROM smsimoes/consul-template-php:latest
+FROM smsimoes/consul-template-php:7.0
 LABEL maintainer="Miguel Simões <msimoes@gmail.com>"
 #
 # Ensure that we have the latest packages associated with the image
